@@ -19,7 +19,7 @@ const lineClient = new Client(lineConfig);
 
 // 初始化 Gemini 產生式 AI 客戶端
 const genAI = new GoogleGenerativeAI(geminiApiKey);
-const model = genAI.getGenerativeModel({ model: "gemini-pro" }); // 選擇 'gemini-pro' 模型
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-001" }); // 選擇 'gemini-pro' 模型
 
 // LINE Webhook 中間件
 // 確保 LINE 的簽章驗證正確
