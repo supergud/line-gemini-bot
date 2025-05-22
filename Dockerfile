@@ -31,7 +31,7 @@ COPY --from=builder /app .
 
 # Expose the port your application listens on
 # Ensure this matches the 'port' variable in your index.js (e.g., 3000)
-EXPOSE 3000
+EXPOSE 8080
 
 # Define the command to run your application when the container starts
 # This should match your "start" script in package.json
